@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-default {
+    border: none;
+    background-color: transparent;
+    font-size: 1.25em;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.inner-div {
+    min-width: 80vw;
+}
+
+.prompt-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.prompt {
+    width: 100%;
+    padding: 4px 14px;
+    border-radius: 8px;
+    border: black 2px solid;
+    font-size: 1.25em;
+}
+
+.prompt-btn {
+    color: rgba(37, 48, 127, 0.901);
+}
+
+.list-box{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    border: black 2px solid;
+    border-radius: 8px;
+    min-height: 40vh;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 4px 14px;
+}
+
+.item-check-btn{
+    color: mediumseagreen;
+}
+
+.item-text {
+    font-size: 1.25em;
+}
+
+.item-del-btn {
+    color: #e81b1bda;
+}
