@@ -7,9 +7,14 @@
 }
 
 .btn-default {
+    color: rgb(48, 48, 48);
     border: none;
     background-color: transparent;
-    font-size: 1.25em;
+    font-size: 1.5em;
+}
+
+.btn-default:hover {
+    color: rgb(100, 99, 99);
 }
 
 .main-div {
@@ -72,10 +77,18 @@
     color: mediumseagreen;
 }
 
+.item-check-btn:hover{
+    color: rgb(143, 207, 172);
+}
+
 .item-text {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .item-del-btn {
     color: #e81b1bda;
+}
+
+.item-del-btn:hover {
+    color: #ac0000da;
 }
